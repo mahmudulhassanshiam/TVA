@@ -397,15 +397,15 @@ p span {
 }
 
 .title-animation {
-  text-transform: lowercase !important;
+  text-transform: none !important;
 }
 
 .title-animation > div > div:first-child {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .title-animation > span > div > div:first-child {
-  text-transform: uppercase !important;
+  text-transform: none !important;
 }
 
 .title-animation > span * {

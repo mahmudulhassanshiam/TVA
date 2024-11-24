@@ -9057,6 +9057,51 @@ span {
     transform: rotate(-154deg) translateY(-200px);
   }
 }
+
+/* faq */
+
+.accordion-button {
+  color: #333;
+  background-color: var(--primary-color);
+  user-select: none;
+}
+
+.accordion-button::after {
+  font-size: 0.8em;
+  float: right;
+  transition: transform 0.3s ease;
+  transform: rotate(0deg);
+}
+
+.accordion-button[aria-expanded="true"]::after {
+  transform: rotate(0deg);
+}
+
+.accordion-button[aria-expanded="false"]::after {
+  transform: rotate(-90deg);
+}
+
+.accordion-body {
+  color: black;
+  line-height: 1.5;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.accordion-button {
+  color: black;
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.container__faq {
+  margin: 50px auto;
+}
+
 /* ==== 
  --------- (6.0) responsive styles end ---------
  ==== */

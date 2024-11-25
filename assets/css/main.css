@@ -310,7 +310,7 @@ a,
 button {
   font-size: 18px;
   line-height: 24px;
-  color: var(--theme-color);
+  color: #4920DD;
   font-weight: 500;
   cursor: pointer;
   display: inline-flex;
@@ -318,7 +318,7 @@ button {
 }
 a:hover,
 button:hover {
-  color: var(--primary-color);
+  color:#4920DD;
 }
 
 h1 {
@@ -7304,7 +7304,7 @@ span {
   transform: translateY(-50%);
   left: 20px;
   font-size: 24px;
-  color: var(--primary-color);
+  color: #ffffff;
 }
 .authentication .ic-group .show-pass {
   right: 20px;
@@ -9061,8 +9061,8 @@ span {
 /* faq */
 
 .accordion-button {
-  color: #333;
-  background-color: var(--primary-color);
+  color: #ffffff;
+  background: linear-gradient(to right, #4920DD, #7260B2);
   user-select: none;
 }
 
@@ -9089,7 +9089,7 @@ span {
 }
 
 .accordion-button {
-  color: black;
+  color: #ffffff;
   background-color: var(--primary-color);
   font-weight: bold;
 }
@@ -9099,7 +9099,7 @@ span {
 }
 
 .container__faq {
-  margin: 50px auto;
+  margin: -70px auto;
 }
 
 /* ==== 

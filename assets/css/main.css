@@ -9085,9 +9085,10 @@ span {
 }
 
 .accordion-button::after {
+  content: "";
   font-size: 0.8em;
   float: right;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease;
   transform: rotate(0deg);
 }
 

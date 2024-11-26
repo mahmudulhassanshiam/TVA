@@ -1650,7 +1650,7 @@ span {
 .btn--tertiary {
   z-index: 1;
   color: var(--primary-color);
-  border: 1px solid black !important;
+  border: 1px solid rgb(255, 255, 255) !important;
   background-color: #181818;
   gap: 20px;
   display: inline-flex;
@@ -1680,7 +1680,7 @@ span {
 
 .btn--quaternary {
   z-index: 1;
-  color: var(--primary-color);
+  color: #ffffff;
   border: 1px solid var(--primary-color) !important;
   background-color: #181818;
   gap: 20px;
@@ -1697,13 +1697,13 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #4920DD 0%, #7260B2 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
 .btn--quaternary:hover {
   border: 1px solid var(--primary-color);
-  color: var(--black);
+  color: #b9b2f3;
 }
 .btn--quaternary:hover::before {
   width: 100%;

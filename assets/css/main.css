@@ -9070,6 +9070,18 @@ span {
   color: #ffffff;
   background: linear-gradient(to right, #4920dd, #7260b2);
   user-select: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.accordion-body-new {
+  font-family: var(--theme-font) !important;
+  margin: 10px 0;
+  border-radius: 12px !important;
+  border: 1px solid #e5e5e5 !important;
+  overflow: hidden;
+}
+.accordion-button:hover {
+  color: #fff;
 }
 
 .accordion-button::after {
@@ -9092,6 +9104,7 @@ span {
   line-height: 1.5;
   padding: 15px;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .accordion-button {

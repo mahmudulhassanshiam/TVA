@@ -6615,6 +6615,10 @@ span {
   border-radius: 10px;
   min-height: 100px;
 }
+.small-product-img-new {
+  display: none;
+}
+
 .p-details .product__content {
   padding-left: 20px;
 }
@@ -6720,7 +6724,7 @@ span {
   background-color: #120f23;
 }
 .p-details .p-details__tab .p-details__tab-btn .p-d-t-btn-active {
-  background: linear-gradient(132deg, #4920DD 0%, #7260B2 100%);
+  background: linear-gradient(132deg, #4920dd 0%, #7260b2 100%);
   color: #f7f7f7;
   border-radius: 5px;
 }

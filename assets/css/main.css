@@ -6720,8 +6720,9 @@ span {
   background-color: #120f23;
 }
 .p-details .p-details__tab .p-details__tab-btn .p-d-t-btn-active {
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
-  color: #191b1a;
+  background: linear-gradient(132deg, #4920DD 0%, #7260B2 100%);
+  color: #f7f7f7;
+  border-radius: 5px;
 }
 .p-details .p-details__tab .p-details__tab-single {
   padding-top: 40px;

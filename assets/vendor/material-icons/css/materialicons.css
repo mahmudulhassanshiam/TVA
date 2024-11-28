@@ -18,7 +18,7 @@
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-    color: var(--heading-1st-color);
+    color: #c6b6ff;
     -webkit-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;

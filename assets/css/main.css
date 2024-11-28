@@ -6734,6 +6734,10 @@ span {
 .p-details .p-details__tab .description-content p {
   margin-bottom: 24px;
 }
+.description-list {
+list-style-type: disc !important;
+}
+
 .p-details .p-details__tab .description-content p:nth-last-of-type(1) {
   margin-bottom: 0px;
 }

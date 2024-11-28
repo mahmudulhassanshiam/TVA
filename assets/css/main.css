@@ -6731,13 +6731,14 @@ span {
 .p-details .p-details__tab .p-details__tab-single {
   padding-top: 40px;
 }
-.p-details .p-details__tab .description-content p {
+.p-details .p-details__tab .description-content li {
+  list-style-type: disc !important;
   margin-bottom: 24px;
 }
-.description-list {
-list-style-type: disc !important;
+.description-list-item {
+  font-weight: 700;
+  color: var(--primary-color);
 }
-
 .p-details .p-details__tab .description-content p:nth-last-of-type(1) {
   margin-bottom: 0px;
 }
